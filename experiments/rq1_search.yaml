@@ -1,0 +1,30 @@
+# RQ1, Creation, search domain. BrowseComp (1,266 questions), graded with the simple-evals grader.
+name: rq1-search
+rq: rq1
+domain: search
+
+models:
+  creator:
+    model: claude-opus-4-8
+    api_base_url: https://api.anthropic.com
+    api_key: ${CREATOR_API_KEY}
+    protocol: anthropic
+  executor:
+    model: claude-opus-4-8
+    api_base_url: https://api.anthropic.com
+    api_key: ${EXECUTOR_API_KEY}
+    protocol: anthropic
+  judge:
+    model: gpt-4.1-2025-04-14
+    api_base_url: https://api.openai.com/v1
+    api_key: ${JUDGE_API_KEY}
+    protocol: openai
+
+creator:
+  agent: claude-code
+  timeout: 86400
+
+executor:
+  n_concurrent: 8
+  task_env:                      # search backends available to the produced agent
+    SERPER_API_KEY: ${SERPER_API_KEY}

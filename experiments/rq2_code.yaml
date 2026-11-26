@@ -1,0 +1,35 @@
+# RQ2, Evolution, code domain. The paper's protocol:
+# 10 billed evaluation pairs, 2 probes per round, creator-declared final,
+# feedback on SWE-bench Pro 100 + Terminal-Bench 2.1 89, held-out SWE-bench Pro 630.
+name: rq2-code
+rq: rq2
+domain: code
+seed_harness: path/to/h0         # the harness to evolve (an RQ1 result); --seed-harness overrides it
+
+models:
+  creator:
+    model: gpt-5.5
+    api_base_url: https://api.openai.com/v1
+    api_key: ${CREATOR_API_KEY}
+    protocol: openai
+  executor:
+    model: gpt-5.5
+    api_base_url: https://api.openai.com/v1
+    api_key: ${EXECUTOR_API_KEY}
+    protocol: openai
+
+creator:
+  agent: codex
+  timeout: 604800
+  max_selftests_per_task: null   # local runs are unlimited in RQ2
+
+evolve:
+  max_pairs: 10
+  probes_per_round: 2
+  probe_size: 5
+  serial: false                  # true: pause the creator until each pair's feedback is delivered
+  heldout: all                   # all official versions | final | none
+
+executor:
+  n_concurrent: 16
+  max_steps: 500

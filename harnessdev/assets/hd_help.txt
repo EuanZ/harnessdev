@@ -1,0 +1,7 @@
+hd selftest [--benchmark B] [--task ID ...]   run the workspace harness on dev tasks
+hd submit-pair [--commit SHA] [--dry-run]     billed full evaluation of one commit
+hd submit-probe [--commit SHA] [--dry-run]    fixed-subset probe of one commit
+hd list-evals | hd eval-status --eval-id ID
+hd read-feedback --since SEQ | hd wait-feedback --since SEQ [--timeout S]
+hd budget
+hd declare-final [--commit SHA]

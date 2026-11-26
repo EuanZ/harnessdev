@@ -1,0 +1,28 @@
+# RQ1, Creation, writing domain. EQ-Bench 3 (46 scenarios), rubric score.
+name: rq1-writing
+rq: rq1
+domain: writing
+
+models:
+  creator:
+    model: claude-opus-4-8
+    api_base_url: https://api.anthropic.com
+    api_key: ${CREATOR_API_KEY}
+    protocol: anthropic
+  executor:
+    model: claude-opus-4-8
+    api_base_url: https://api.anthropic.com
+    api_key: ${EXECUTOR_API_KEY}
+    protocol: anthropic
+  judge:                         # EQ-Bench 3 calls its judge over the OpenAI chat API
+    model: claude-opus-4-6
+    api_base_url: https://openrouter.ai/api/v1
+    api_key: ${JUDGE_API_KEY}
+    protocol: openai
+
+creator:
+  agent: claude-code
+  timeout: 86400
+
+executor:
+  n_concurrent: 8

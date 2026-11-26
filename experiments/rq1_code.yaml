@@ -1,0 +1,28 @@
+# RQ1, Creation, code domain.
+# The creator builds a coding-agent harness from the weak seed; the final
+# workspace is evaluated on SWE-bench Pro (730) and Terminal-Bench 2.1 (89).
+name: rq1-code
+rq: rq1
+domain: code
+
+models:
+  creator:                       # the model that writes the harness
+    model: claude-opus-4-8
+    api_base_url: https://api.anthropic.com
+    api_key: ${CREATOR_API_KEY}
+    protocol: anthropic
+  executor:                      # the runtime LLM the harness drives
+    model: claude-opus-4-8
+    api_base_url: https://api.anthropic.com
+    api_key: ${EXECUTOR_API_KEY}
+    protocol: anthropic
+
+creator:
+  agent: claude-code             # claude-code | codex
+  timeout: 86400                 # seconds
+  max_selftests_per_task: 6
+
+executor:
+  n_concurrent: 8
+  max_steps: 500
+  environment: docker            # docker | daytona | modal | e2b

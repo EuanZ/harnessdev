@@ -1,0 +1,23 @@
+# RQ1, Creation, data domain. MLE-bench (75 competitions). Needs Kaggle credentials and prepared data.
+name: rq1-data
+rq: rq1
+domain: data
+
+models:
+  creator:
+    model: claude-opus-4-8
+    api_base_url: https://api.anthropic.com
+    api_key: ${CREATOR_API_KEY}
+    protocol: anthropic
+  executor:
+    model: claude-opus-4-8
+    api_base_url: https://api.anthropic.com
+    api_key: ${EXECUTOR_API_KEY}
+    protocol: anthropic
+
+creator:
+  agent: claude-code
+  timeout: 86400
+
+executor:
+  n_concurrent: 8

@@ -1,0 +1,3 @@
+# Public dev competitions for creator self-tests
+spaceship-titanic
+ml2021spring-hw2

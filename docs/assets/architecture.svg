@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 636" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif" role="img">
+<defs><marker id="m2563eb" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#2563eb"/></marker><marker id="me2572b" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#e2572b"/></marker><marker id="m98a2b3" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#98a2b3"/></marker></defs>
+<rect width="1400" height="636" rx="20" fill="#ffffff"/>
+<rect x="40" y="36" width="600" height="340" rx="28" fill="#eff4ff" stroke="#2563eb" stroke-width="5"/>
+<rect x="700" y="36" width="660" height="340" rx="28" fill="#fdf6f2" stroke="#e2572b" stroke-width="5"/>
+<text x="340" y="76" font-size="15" font-weight="800" fill="#2563eb" text-anchor="middle" letter-spacing="1.6">① CREATOR SANDBOX · FREE-FORM</text>
+<text x="1030" y="76" font-size="15" font-weight="800" fill="#e2572b" text-anchor="middle" letter-spacing="1.6">EVALUATION · ON FROZEN COMMITS</text>
+<rect x="68" y="98" width="290" height="226" rx="18" fill="#fff" stroke="#2563eb" stroke-width="3"/>
+<text x="213" y="136" font-size="22" font-weight="800" fill="#2563eb" text-anchor="middle" >Workspace</text>
+<rect x="88" y="152" width="56" height="26" rx="13" fill="#dbe7ff"/>
+<text x="116.2" y="170" font-size="13" font-weight="700" fill="#2563eb" text-anchor="middle" >root</text>
+<rect x="152.4" y="152" width="79" height="26" rx="13" fill="#dbe7ff"/>
+<text x="192.0" y="170" font-size="13" font-weight="700" fill="#2563eb" text-anchor="middle" >network</text>
+<rect x="239.6" y="152" width="102" height="26" rx="13" fill="#dbe7ff"/>
+<text x="290.6" y="170" font-size="13" font-weight="700" fill="#2563eb" text-anchor="middle" >own Docker</text>
+<text x="90" y="212" font-size="15" font-weight="400" fill="#161a23" text-anchor="start" >harness/ in a git repository</text>
+<text x="90" y="238" font-size="15" font-weight="400" fill="#161a23" text-anchor="start" >development cases · raw traces · logs</text>
+<text x="90" y="290" font-size="16" font-weight="700" fill="#2563eb" text-anchor="start" >↻ self-test at will</text>
+<rect x="446" y="106" width="168" height="210" rx="20" fill="#1b1c2e"/>
+<g transform="translate(530 158)" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M-13 -8L-21 0L-13 8M13 -8L21 0L13 8M5 -13L-5 13"/></g>
+<text x="530" y="214" font-size="24" font-weight="800" fill="#ffffff" text-anchor="middle" >Creator</text>
+<text x="530" y="244" font-size="13" font-weight="400" fill="#a9afc3" text-anchor="middle" >frontier model +</text>
+<text x="530" y="263" font-size="13" font-weight="400" fill="#a9afc3" text-anchor="middle" >Claude Code · Codex</text>
+<line x1="444" y1="186" x2="366" y2="186" stroke="#2563eb" stroke-width="4" marker-end="url(#m2563eb)"/>
+<text x="402" y="174" font-size="14" font-weight="700" fill="#2563eb" text-anchor="middle" >edit / run</text>
+<line x1="360" y1="244" x2="438" y2="244" stroke="#2563eb" stroke-width="4" marker-end="url(#m2563eb)"/>
+<text x="402" y="268" font-size="14" font-weight="700" fill="#2563eb" text-anchor="middle" >results</text>
+<text x="340" y="358" font-size="13" font-weight="700" fill="#9db8f5" text-anchor="middle" >← free, self-driven, many rounds →</text>
+<line x1="616" y1="186" x2="720" y2="186" stroke="#e2572b" stroke-width="4" stroke-dasharray="9 7" marker-end="url(#me2572b)"/>
+<text x="671" y="172" font-size="14" font-weight="700" fill="#e2572b" text-anchor="middle" paint-order="stroke" stroke="#ffffff" stroke-width="7" stroke-linejoin="round">commit</text>
+<line x1="726" y1="244" x2="622" y2="244" stroke="#e2572b" stroke-width="4" marker-end="url(#me2572b)"/>
+<text x="671" y="270" font-size="14" font-weight="700" fill="#e2572b" text-anchor="middle" paint-order="stroke" stroke="#ffffff" stroke-width="7" stroke-linejoin="round">raw feedback</text>
+<rect x="730" y="98" width="236" height="226" rx="18" fill="#fff" stroke="#e2572b" stroke-width="3"/>
+<text x="848" y="136" font-size="22" font-weight="800" fill="#e2572b" text-anchor="middle" >Controller</text>
+<rect x="750" y="152" width="56" height="26" rx="13" fill="#fde0d6"/>
+<text x="778.2" y="170" font-size="13" font-weight="700" fill="#e2572b" text-anchor="middle" >host</text>
+<text x="752" y="212" font-size="15" font-weight="400" fill="#161a23" text-anchor="start" >freezes the commit</text>
+<text x="752" y="238" font-size="15" font-weight="400" fill="#161a23" text-anchor="start" >keeps the budget ledger</text>
+<text x="752" y="264" font-size="15" font-weight="400" fill="#161a23" text-anchor="start" >copies raw results back</text>
+<rect x="1086" y="92" width="250" height="108" rx="18" fill="#fff" stroke="#e2572b" stroke-width="3"/>
+<text x="1211" y="126" font-size="19" font-weight="800" fill="#e2572b" text-anchor="middle" >② Executor</text>
+<text x="1211" y="154" font-size="14" font-weight="400" fill="#161a23" text-anchor="middle" >frozen harness + executor model</text>
+<text x="1211" y="176" font-size="13" font-weight="400" fill="#667085" text-anchor="middle" >one container per task</text>
+<rect x="1086" y="224" width="250" height="108" rx="18" fill="#fff" stroke="#e2572b" stroke-width="3"/>
+<text x="1211" y="258" font-size="19" font-weight="800" fill="#e2572b" text-anchor="middle" >③ Scorer</text>
+<text x="1211" y="286" font-size="14" font-weight="400" fill="#161a23" text-anchor="middle" >the benchmark's own verifier</text>
+<text x="1211" y="308" font-size="13" font-weight="400" fill="#667085" text-anchor="middle" >tests · grader · rubric judge</text>
+<line x1="968" y1="146" x2="1078" y2="146" stroke="#e2572b" stroke-width="4" marker-end="url(#me2572b)"/>
+<text x="1026" y="132" font-size="13" font-weight="700" fill="#e2572b" text-anchor="middle" >frozen harness</text>
+<line x1="1211" y1="201" x2="1211" y2="216" stroke="#e2572b" stroke-width="4" marker-end="url(#me2572b)"/>
+<line x1="1084" y1="278" x2="974" y2="278" stroke="#e2572b" stroke-width="4" marker-end="url(#me2572b)"/>
+<text x="1026" y="302" font-size="13" font-weight="700" fill="#e2572b" text-anchor="middle" >scores · traces</text>
+<text x="1030" y="358" font-size="13" font-weight="700" fill="#f1b29c" text-anchor="middle" >← budgeted, authoritative →</text>
+<line x1="530" y1="382" x2="530" y2="402" stroke="#98a2b3" stroke-width="2.5" stroke-dasharray="3 4"/>
+<line x1="1211" y1="382" x2="1211" y2="402" stroke="#98a2b3" stroke-width="2.5" stroke-dasharray="3 4"/>
+<rect x="40" y="404" width="1320" height="54" rx="16" fill="#f4f5f8" stroke="#cfd4dc" stroke-width="2"/>
+<text x="64" y="437" font-size="17" font-weight="800" fill="#161a23" text-anchor="start" >Model gateway</text>
+<text x="212.6" y="437" font-size="14" font-weight="400" fill="#667085" text-anchor="start" >forwards to your model APIs · logs every request</text>
+<rect x="1231" y="418" width="105" height="26" rx="13" fill="#e6e8ee"/>
+<text x="1283.3" y="436" font-size="12.5" font-weight="700" fill="#475467" text-anchor="middle" >judge model</text>
+<rect x="1095" y="418" width="128" height="26" rx="13" fill="#e6e8ee"/>
+<text x="1158.8" y="436" font-size="12.5" font-weight="700" fill="#475467" text-anchor="middle" >executor model</text>
+<rect x="967" y="418" width="120" height="26" rx="13" fill="#e6e8ee"/>
+<text x="1026.8999999999999" y="436" font-size="12.5" font-weight="700" fill="#475467" text-anchor="middle" >creator model</text>
+<line x1="40" y1="486" x2="1360" y2="486" stroke="#e4e7ec" stroke-width="2"/>
+<rect x="40" y="509" width="11" height="11" rx="3" fill="#2563eb"/>
+<text x="60" y="520" font-size="17" font-weight="800" fill="#161a23" text-anchor="start" >Code</text>
+<text x="60" y="541" font-size="13" font-weight="400" fill="#667085" text-anchor="start" >SWE-bench Pro · Terminal-Bench 2.1</text>
+<text x="60" y="568" font-size="13.5" font-weight="400" fill="#2563eb" text-anchor="start" >Runs: Harbor task containers</text>
+<text x="60" y="590" font-size="13.5" font-weight="400" fill="#e2572b" text-anchor="start" >Scored: task tests, task success</text>
+<rect x="375" y="509" width="11" height="11" rx="3" fill="#0d9488"/>
+<text x="395" y="520" font-size="17" font-weight="800" fill="#161a23" text-anchor="start" >Data analysis</text>
+<text x="395" y="541" font-size="13" font-weight="400" fill="#667085" text-anchor="start" >MLE-bench</text>
+<text x="395" y="568" font-size="13.5" font-weight="400" fill="#2563eb" text-anchor="start" >Runs: mlebench-env image</text>
+<text x="395" y="590" font-size="13.5" font-weight="400" fill="#e2572b" text-anchor="start" >Scored: Kaggle grader, medal rate</text>
+<rect x="710" y="509" width="11" height="11" rx="3" fill="#16a34a"/>
+<text x="730" y="520" font-size="17" font-weight="800" fill="#161a23" text-anchor="start" >Writing</text>
+<text x="730" y="541" font-size="13" font-weight="400" fill="#667085" text-anchor="start" >EQ-Bench 3</text>
+<text x="730" y="568" font-size="13.5" font-weight="400" fill="#2563eb" text-anchor="start" >Runs: upstream repo, harness as test model</text>
+<text x="730" y="590" font-size="13.5" font-weight="400" fill="#e2572b" text-anchor="start" >Scored: rubric judge, 0–100</text>
+<rect x="1045" y="509" width="11" height="11" rx="3" fill="#c026d3"/>
+<text x="1065" y="520" font-size="17" font-weight="800" fill="#161a23" text-anchor="start" >Research</text>
+<text x="1065" y="541" font-size="13" font-weight="400" fill="#667085" text-anchor="start" >BrowseComp</text>
+<text x="1065" y="568" font-size="13.5" font-weight="400" fill="#2563eb" text-anchor="start" >Runs: one container per question</text>
+<text x="1065" y="590" font-size="13.5" font-weight="400" fill="#e2572b" text-anchor="start" >Scored: simple-evals grader, accuracy</text>
+</svg>

@@ -1,0 +1,4 @@
+# Public dev questions for creator self-tests (row indices of the released CSV)
+0
+1
+2
